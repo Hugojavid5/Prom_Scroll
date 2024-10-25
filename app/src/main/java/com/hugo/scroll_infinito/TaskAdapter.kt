@@ -1,9 +1,8 @@
-package com.hugo.scroll_infinito.ui.theme
+package com.hugo.scroll_infinito
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.hugo.scroll_infinito.TaskViewHolder
 
 class TaskAdapter(private val tasks: List<String>, private val onItemDone: (Int) -> Unit) : RecyclerView.Adapter<TaskViewHolder>() {
 
