@@ -46,7 +46,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.recyclerview)
-    implementation(libs.androidx.appcompat)// Librería Material Design para componentes visuales
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)// Librería Material Design para componentes visuales
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
